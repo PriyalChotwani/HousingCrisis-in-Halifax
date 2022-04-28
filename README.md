@@ -17,30 +17,51 @@ Furthermore, I will be analyzing the population rate in Halifax in the next 10 y
 # Visualizations and Analysis
 
 #### What is the population growth rate in comparison to housing developed in Halifax Region?
+<p align="center">
+ <img src= "Images/HRM1.png">
+</p>
 
 There is a dip in number of buildings contructed in 2008. Major contructions have taken place in 2009 to 2011 following an exponential dip till 2015. It has been stagnant since 2016. Overall, Population rise is not compatible with number of Buildings Constructed.
 
 #### What is the distribution of Building Classifications in Halifax?
+<p align="center">
+ <img src= "Images/HRM2.png">
+</p>
 
 Residential buildings are dominating the overall construction. Recreational is second last although the budget is highest for recreation in terms of buildings. 
 
 #### Does the number of Residential Buildings constructed in the past 15 years match the population 
+<p align="center">
+ <img src= "Images/HRM3.png">
+</p>
 
 The residential construction is not in pace with the requirements and the construction stagnated after 2016. 
 
 #### What are the types of buildings construction for residence?
+<p align="center">
+ <img src= "Images/HRM4.png">
+</p>
 
 Single Unit Dwelling is dominant followed by Two Unit Dwelling. Since 2012, 2-unit dwellings and townhouses are also preferable.
 
 #### Which is the most populated area in Halifax Region?
+<p align="center">
+ <img src= "Images/HRM5.png">
+</p>
 
 The prominent and the most preferable areas are Halifax, Bedford, and Middle Sackville. Geo Graph help us to understand the distribution of popular housing choices in HRM. Other areas can also be utilized if the hosuing crisis persist.
 
 #### Is the process of permit issuance for different building types quick?
+<p align="center">
+ <img src= "Images/HRM6.png">
+</p>
 
 As shown in the figure, only 1 Permit was requested in 2006. Also, it is observed that processing time has increased over the years. Overall, permit issuance efficiency can be enhanced after taking other factors into consideration.
 
 #### Have the number of permits issued increased or decreased over the time?
+<p align="center">
+ <img src= "Images/HRM7.png">
+</p>
 
 The figure shows that, permit issue process has become difficult and the processing time has increased over the years. Overall, permit issuance efficiency can be enhanced after taking other factors into consideration.
 
@@ -55,6 +76,10 @@ ggplot(data = data1, aes(x = Year, y = Population)) +
         axis.line.y=element_line()) +
   ggtitle("Linear Model Fitted to Data")
 ```
+<p align="center">
+ <img src= "Images/Prediction.png">
+</p>
+
 Linear Regression model can be applied using:
 
 ```
