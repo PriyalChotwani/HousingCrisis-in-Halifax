@@ -88,6 +88,7 @@ predict(fit_1, data.frame(Year=2002))
 ```
 Population is increasing more than expected as the population in 2021 has already surpassed predicted population for 2023, which also raises the concern that the Housing is not in pace with population growth. 
 
+
 # Conclusion
 
 - Population is increasing rapidly in Halifax
